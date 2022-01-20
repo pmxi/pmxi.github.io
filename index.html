@@ -11,7 +11,7 @@
 		<p1>
 		One of the 7 wonders of the internet
 		</p1>
-		<input type = "button" onclick = "myfunction()" value = "Display">
+		<input type = "button" onclick = "stop_strobe()" value = "Display">
 		<table>
 			<tr><td>Directory</td></tr>
 			<tr><td><a href="index.html">Home</a></td></tr>
@@ -30,7 +30,7 @@ function strobe()
   document.body.style.backgroundColor = boolean_value1 ? 'black' : 'white';
   document.body.style.color = boolean_value1 ? 'white' : 'black';
   boolean_value1=!boolean_value1;
-  setTimeout(strobe, 70); //in milliseconds
+  setTimeout(strobe, 100); //in milliseconds
  }
  else
  {
