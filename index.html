@@ -11,11 +11,41 @@
 		<p1>
 		One of the 7 wonders of the internet
 		</p1>
+<<<<<<< HEAD
 		<table>
 			<tr><td>Directory</td></tr>
 			<tr><td><a href="index.html">Home</a></td></tr>
 			<tr><td><a href="about.html">about</a></td></tr>
 			
 		</table>
+=======
+		<script>
+			var text1=document.body.style.backgroundColor;
+var text2=document.body.style.color;
+var boolean_value1=true;
+var boolean_value2=true;
+function strobe()
+{
+ if (boolean_value2)
+ {
+  document.body.style.backgroundColor = boolean_value1 ? 'black' : 'white';
+  document.body.style.color = boolean_value1 ? 'white' : 'black';
+  boolean_value1=!boolean_value1;
+  setTimeout(strobe, 70); //in milliseconds
+ }
+ else
+ {
+  document.body.style.backgroundColor=text1;
+  document.body.style.color=text2;
+  alert("The else statement was executed...boolean_value2 evaluates to false");
+ }
+}
+
+function stop_strobe()
+{
+ boolean_value2=false;
+}
+		</script>
+>>>>>>> 2997e2e7326a4a721d98eb44e3358f3ed1a38562
 	</body>
 </html>
