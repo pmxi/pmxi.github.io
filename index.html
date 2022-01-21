@@ -1,51 +1,24 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Paras</title>
-		<link rel="icon" type="image/x-icon" href="favicon.png">
-	</head>
-	<body>
-		<h1>Paras Mittal</h1>
-		<p1>this is my site</p1>
-		<p1>
-		One of the 7 wonders of the internet
-		</p1>
-		<input type = "button" onclick = "stop_strobe()" value = "Display">
-		<table>
-			<tr><td>Directory</td></tr>
-			<tr><td><a href="index.html">Home</a></td></tr>
-			<tr><td><a href="about.html">about</a></td></tr>
-			
-		</table>
-		<script>
-			var text1=document.body.style.backgroundColor;
-var text2=document.body.style.color;
-var boolean_value1=true;
-var boolean_value2=true;
-function strobe()
-{
- if (boolean_value2)
- {
-  document.body.style.backgroundColor = boolean_value1 ? 'black' : 'white';
-  document.body.style.color = boolean_value1 ? 'white' : 'black';
-  boolean_value1=!boolean_value1;
-  setTimeout(strobe, 100); //in milliseconds
- }
- else
- {
-  document.body.style.backgroundColor=text1;
-  document.body.style.color=text2;
-  alert("The else statement was executed...boolean_value2 evaluates to false");
- }
-}
+  <head>
+    <title>Paras</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+  </head>
 
-function stop_strobe()
-{
- boolean_value2=false;
-}
-
-			strobe();
-		</script>
-	</body>
+  <body>
+    <div class="content">
+      <h1>Paras Mittal</h1>
+      <p1>this is my site</p1>
+      <p1> One of the 7 wonders of the internet </p1>
+    </div>
+    <div class="navbar">
+      <h3>Directory</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">about</a></li>
+      </ul>
+    </div>
+  </body>
 </html>
