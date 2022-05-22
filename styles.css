@@ -1,5 +1,6 @@
 body {
   display: grid;
+  margin: 0;
   width: 100%;
   grid-template-columns: 10% 90%;
   grid-template-rows: 10% 90%;
@@ -17,4 +18,5 @@ body {
 
 .content {
   grid-area: body;
+  margin: 3%;
 }
