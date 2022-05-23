@@ -1,3 +1,3 @@
 # pmxi.github.io
-github pages site
-ONE OF THE SEVEN WONDERS OF THE INTERNET
+
+truly among the 7 wonders of the front-end-web-development world

@@ -1,22 +1,49 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   display: grid;
   margin: 0;
   width: 100%;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 20% 60% 20%;
   grid-template-rows: 10% 90%;
   grid-template-areas:
-    "header header"
-    "nav body";
+    "left header right"
+    "left body right";
+}
+
+header {
+  grid-area: header;
 }
 
 .navbar {
-  background-color: rgb(136, 183, 199);
-  grid-area: nav;
-  height: 100%;
-  width: 100%;
+  background-color: rgb(161, 231, 255);
+  font-size: 1.2em;
+  width: 10%;
+  height: auto;
+  position: fixed;
+  top: 5%;
+  left: 5%;
 }
 
 .content {
   grid-area: body;
   margin: 3%;
+  font-size: 1.5em;
+}
+
+#left {
+  grid-area: left;
+  /* align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+#spacer {
+  grid-area: right;
+}
+
+a:hover {
+  background-color: rgb(40, 104, 126);
 }
