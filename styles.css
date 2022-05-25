@@ -20,6 +20,7 @@ header {
 .navbar {
   background-color: rgb(161, 231, 255);
   font-size: 1.2em;
+  text-align: center;
   width: 10%;
   height: auto;
   position: fixed;
