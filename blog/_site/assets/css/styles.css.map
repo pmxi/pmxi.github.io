@@ -6,7 +6,7 @@
 		"_sass/main.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n\n",
+		"@import \"main\";\n",
 		".current {\n\tcolor: green;\n}\n"
 	],
 	"names": [],
