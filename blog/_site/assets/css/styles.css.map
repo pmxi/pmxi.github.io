@@ -1,14 +1,1 @@
-{
-	"version": 3,
-	"file": "styles.css",
-	"sources": [
-		"styles.scss",
-		"_sass/main.scss"
-	],
-	"sourcesContent": [
-		"@import \"main\";\n",
-		".current {\n\tcolor: green;\n}\n"
-	],
-	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACR,KAAK,EAAE,KAAK,GACZ"
-}
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACC;;;AAGD;EACC","sourcesContent":[".current {\n\tcolor: green;\n}\n\nbody {\n\tfont-size: 1.2em;\n}"],"file":"styles.css"}
