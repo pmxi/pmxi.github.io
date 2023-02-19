@@ -1,9 +1,13 @@
-.current {
-  color: green;
-}
-
 body {
   font-size: 1.2em;
+}
+
+nav a.current {
+  background-color: rgb(153, 195, 250);
+}
+
+.date {
+  font-style: italic;
 }
 
 /*# sourceMappingURL=styles.css.map */

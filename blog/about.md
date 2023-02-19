@@ -2,4 +2,7 @@
 title: About
 ---
 # About page
-This page tells you a little about me.
+I am Paras Mittal.
+
+
+[GitHub](https://github.com/pmxi)
