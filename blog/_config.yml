@@ -13,3 +13,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+
+permalink: /:categories/:year/:month/:day/:title/
