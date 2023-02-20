@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACC;;;AAGD;EACC;;;AAGD;EACC","sourcesContent":["body {\n\tfont-size: 1.2em;\n}\n\nnav a.current {\n\tbackground-color: rgb(153, 195, 250);\n}\n\n.date {\n\tfont-style: italic;\n}"],"file":"styles.css"}
