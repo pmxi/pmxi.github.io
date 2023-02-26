@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-# About page
+# About
 I am Paras Mittal.
 
 
