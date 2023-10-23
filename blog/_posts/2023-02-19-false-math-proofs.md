@@ -1,6 +1,7 @@
 ---
 author: Paras Mittal
 mathjax: true
+updated: 2023-10-22
 ---
 
 Here are two false math proofs. I hope to find more subtle ones as most people spot the err in these.
@@ -25,3 +26,12 @@ i &= i^{4 \over 4} \\
 &= 1 \\
 \end{align}
 $$
+
+This and more at this [interesting thread](https://math.stackexchange.com/q/348198)
+$$x^2=\underbrace{x+x+\cdots+x}_{(x\text{ times})}$$
+
+$$\frac{d}{dx}x^2=\frac{d}{dx}[\underbrace{x+x+\cdots+x}_{(x\text{ times})}]$$
+
+$$2x=1+1+\cdots+1=x$$
+
+$$2=1$$
