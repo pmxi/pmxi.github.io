@@ -27,7 +27,8 @@ i &= i^{4 \over 4} \\
 \end{align}
 $$
 
-This and more at this [interesting thread](https://math.stackexchange.com/q/348198)
+Another one 
+
 $$x^2=\underbrace{x+x+\cdots+x}_{(x\text{ times})}$$
 
 $$\frac{d}{dx}x^2=\frac{d}{dx}[\underbrace{x+x+\cdots+x}_{(x\text{ times})}]$$
@@ -35,3 +36,5 @@ $$\frac{d}{dx}x^2=\frac{d}{dx}[\underbrace{x+x+\cdots+x}_{(x\text{ times})}]$$
 $$2x=1+1+\cdots+1=x$$
 
 $$2=1$$
+
+More at these threads [1](https://math.stackexchange.com/q/348198), [2](https://mathoverflow.net/q/94742)
