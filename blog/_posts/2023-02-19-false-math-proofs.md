@@ -1,7 +1,7 @@
 ---
 author: Paras Mittal
 mathjax: true
-updated: 2023-10-22
+updated: 2023-10-25
 ---
 
 Here are two false math proofs. I hope to find more subtle ones as most people spot the err in these.
@@ -36,5 +36,9 @@ $$\frac{d}{dx}x^2=\frac{d}{dx}[\underbrace{x+x+\cdots+x}_{(x\text{ times})}]$$
 $$2x=1+1+\cdots+1=x$$
 
 $$2=1$$
+
+A trickier one
+
+$$e^i = (e^i)^{(2\pi/2\pi)} = (e^{2\pi i})^{1/2\pi} = 1^{1/2\pi} = 1$$
 
 More at these threads [1](https://math.stackexchange.com/q/348198), [2](https://mathoverflow.net/q/94742)
